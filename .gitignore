@@ -1,0 +1,36 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Python
+__pycache__/
+.pytest_cache/
+
+# Builds / output
+.next
+.turbo
+out
+dist
+build
+
+# Env and secrets
+.env
+.env.*
+
+# Logs and diagnostics
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.eslintcache
+
+# Tooling / editor
+.vercel
+.swr
+.DS_Store
+.idea
+.vscode
+
+# Coverage
+coverage
